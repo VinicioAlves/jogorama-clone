@@ -1,0 +1,302 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+	padding: 0 325px 5px 325px;
+	width: 100%;
+	height: 68px;
+	background: rgb(255, 159, 39);
+	border-bottom: 2px solid #DF7401;
+	box-sizing: border-box;
+}
+
+.logo{
+	background: url(../imgs/jogorama.png) no-repeat left;
+	width: 171px;
+	height: 64px;
+	text-indent: -3000px;
+	display: inline-block;
+	float: left;
+}
+
+#pesquisa{
+	margin: 18px 10px 10px 98px;
+}
+
+#pesquisa input{
+	padding-left: 10px;
+	font-size: 0.6em;
+	width: 422px;
+	height: 38px;
+}
+
+#pesquisa button{
+	width: 69px;
+	height: 27px;
+	background-color: rgb(27, 87, 144);
+	border-radius: 2px;
+	border: none;
+	color: #fff;
+}
+
+#direitah{
+	background: url(../imgs/sorriso.png)no-repeat center;
+	width: 56px;
+	height: 56px;
+	display: inline-block;
+	float: right;
+	margin: 5px 68px 0 0px;
+}
+
+#direitah a{
+	font-size: 1.1em;
+	margin: 17px 0 0 66px;
+	color: #fff;
+	text-decoration: none;
+	display: inline-block;
+	font-style: bold;
+}
+
+nav{
+	width: 1214px;
+	margin: 32px auto;
+}
+
+
+#esquerda{
+	float: left;
+	width: 125px;
+	display: inline-block;
+}
+
+#meio{
+	margin-left: 20px;
+	width: 750px;
+	display: inline-block;
+}
+
+
+
+
+/******* início esquerda  ******/
+
+#esquerda ul{
+	list-style: none;
+}
+
+#esquerda li{
+	font-weight: bold;
+	font-size: 0.8em;
+	line-height: 2.2em;
+	border-bottom: 1px solid #A4A4A4;
+	padding-left: 5px;
+}
+
+#esquerda li:hover{
+	color: white;
+	background: rgb(49, 106, 197);
+	cursor: pointer;
+}
+
+#esquerda li:hover a{
+	color: white;
+}
+
+#esquerda a{
+	color: rgb(68, 68, 68);
+	text-decoration: none;
+}
+
+#esquerda .titulolista {
+	line-height: 1.3em;
+	color: rgb(27, 87, 144);
+	font-size: 1em;
+}
+
+#esquerda .titulolista:hover{
+	cursor: text;
+}
+
+.icone{
+	font-size: 1.3em;
+	margin-right: 5px;
+}
+
+#meio h1{
+	font-size: 1.8em;
+	color: rgb(27, 87, 144);
+}
+
+#meio{
+	font-size: 1.1em;
+}
+
+.listameio{
+	margin-top: 5px;
+	list-style: none;
+}
+
+.listameio li{
+	padding: 4px;
+}
+
+#meio p{
+	line-height: 30px;
+}
+
+
+/**** inicio direita *****/
+
+#direita{
+	margin-top: 10px;
+	float: right;
+	width: 300px;
+	display: inline-block;
+}
+
+#direita i{
+	font-size: 2.5em;
+}
+
+.lista-direita{
+	margin-top: 90px;
+}
+
+#direita h3{
+	color: white;
+	margin-bottom: 20px;
+	padding-left: 10px;
+	line-height: 40px;
+	background: rgb(41, 112, 157);
+	border-radius: 3px;
+}
+
+#direita a{
+	margin: 35px;
+	color: rgb(27, 87, 144);
+	text-decoration: none;
+}
+
+#direita p{
+	color: #585858;
+	font-size: 0.9em;
+	font-weight: bold;
+	padding-bottom: 15px;
+	border-bottom: 1px solid rgb(135, 135, 135);
+}
+
+
+
+
+
+#botoes{
+	margin-top: 5px;
+	margin-bottom: 55px;
+}
+
+#botoes button:hover{
+	cursor: pointer;
+}
+
+#meio i{
+	font-size: 1.1em;
+	padding-right: 9px;
+}
+
+#meio .facebook{
+	font-size: 1.2em;
+	color: white;
+	border: none;
+	width: 190px;
+	height: 45px;
+	border-radius: 3px;
+	background: rgb(59,89,152);
+}
+
+#meio .twitter{
+	font-size: 1.1em;
+	color: white;
+	border: none;
+	width: 175px;
+	height: 45px;
+	border-radius: 3px;
+	background: rgb(85, 172, 238);
+}
+
+#meio .whats{
+	font-size: 1.1em;
+	color: white;
+	border: none;
+	width: 200px;
+	height: 45px;
+	border-radius: 3px;
+	background: rgb(37, 211, 102);
+}
+
+#meio .email{
+	font-size: 1.1em;
+	color: white;
+	border: none;
+	width: 160px;
+	height: 45px;
+	border-radius: 3px;
+	background: rgb(135, 135, 135);
+}
+
+footer{
+	height: 111px;
+	border-top: 2px solid #DF7401;
+	background: rgb(255, 159, 39);
+}
+
+.footer{
+	padding-top: 20px;
+	margin-left: 332px;
+}
+
+footer i{
+	font-size: 2.6em;
+}
+
+.paragrafo{
+	display: inline-block;
+	font-size: 1.1em;
+	color: white;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.paragrafo a{
+	text-decoration: none;
+	color: white;
+}
+
+
+
+.face{
+	color: rgb(59,89,152);
+}
+
+.twi{
+	color: rgb(85, 172, 238);
+}
+
+.yt{
+	color: rgb(255, 1 , 31);
+}
+
+.rss{
+	color: rgb(255, 142, 0);
+}
+
+.enve{
+	color: rgb(135, 135, 135);
+}
+
+
